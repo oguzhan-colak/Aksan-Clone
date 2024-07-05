@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-img{
+    background: linear-gradient(to top, rgba(2,10,32,0.6),rgba(2,10,32,0.6),rgba(2,10,32,0.8)), url(./img/background.jpg);
+    min-height: 710px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration:none;
+}
+
+.hero-text p,h1{
+    width: 700px;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.card-text{
+    width: 500px;
+
+}
+
+.hizmet-card{
+    background: linear-gradient(rgba(2,10,32,0.6),rgba(2,10,32,0.6)), url(./img/card-background.jpg);
+
+}
+.hizmet-button{
+    border-bottom: 2px solid #868686;
+    border-radius: 0;
+    color:#868686;
+}
+.hizmet-button:hover{
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    background-color: white;
+}
+
+.card{
+    border: none;
+    overflow: auto;
+}
+
+.card-text{
+    width: 350px;
+}
